@@ -61,7 +61,7 @@ Após a criação da view VENDAS, os dados foram importados para o Excel utiliza
 
 Dashboard Resultante
 
-![Dashboard de Vendas](https://github.com/RodrigoAp727/Projeto-de-Integra-o-SQL-Server-e-Excel-An-lise-de-Vendas-da-AdventureWorks-Cycles/blob/main/img/imagem%20cheia.PNG))
+![Dashboard de Vendas](https://github.com/RodrigoAp727/analise-vendas-sql-adventureworks/blob/main/img/imagem%20cheia.PNG?raw=true)
 
 Screenshots e Exemplos
 
@@ -97,15 +97,14 @@ Análise de vendas por país: Ao analisar a receita e o custo total online por p
 Segmentação do mercado por sexo do cliente: Ao analisar o total de vendas online por sexo do cliente, podemos identificar diferenças no comportamento de compra entre homens e mulheres. Essas informações são valiosas para personalização de marketing e campanhas direcionadas.
 Esses são apenas alguns exemplos dos dados relevantes que podem ser extraídos da análise de vendas da AdventureWorks Cycles. Com base nesses insights, é possível tomar decisões informadas para impulsionar o crescimento e o sucesso do negócio.
 
-Como visualizar o código
+## Como visualizar o código
 
 1. Clone o repositório:
 
-    git clone https://github.com/seu_usuario/nome_do_repositorio.git
+```bash
+git clone https://github.com/RodrigoAp727/analise-vendas-sql-adventureworks.git
+```
 
-    
 2. Abra o projeto no seu editor de preferência.
-
-3. Siga as instruções no arquivo README para configurar o ambiente e executar as queries.
-
-Ao disponibilizar os códigos SQL e o dashboard, o seu portfólio GitHub se tornará uma ótima referência para as suas habilidades em SQL e análise de dados. Boa sorte com sua apresentação!
+3. Instale o banco de exemplo AdventureWorks (link acima) e execute a view `VENDAS` no SQL Server.
+4. Importe a view para o Excel via Power Query para reproduzir o dashboard.
